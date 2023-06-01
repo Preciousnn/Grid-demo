@@ -1,0 +1,140 @@
+@font-face {
+    font-family:"Custom";
+    src:url("./leitura-display-swashes.otf") format("opentype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    background-color:#d9d9d9;
+    display: flex;
+    justify-content:flex-start;
+    color: #fff;
+    /* margin-bottom: 50px; */
+    padding: 20px 20px 20px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.menu{
+    border: 1px solid #fff;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.Navbar li{
+    list-style: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px, 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+    /* grid-gap: 10px; */
+    border: 1.5px solid #d9d9d9;
+
+}
+.grid-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:"Custom";
+}
+
+.grid-container .special1 {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #fff;
+    color:#6d8dc8;
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+    font-size: 6rem;
+}
+
+.grid-container .special2 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #ede5f0;
+    color:#fff;
+    font-size: 9rem;
+}
+
+.grid-container .special3 {
+    background-color: #6d8dc8;
+    color: #B3E5E2;
+    font-size: 5rem;
+}
+
+.grid-container .special4 {
+    background-color: #A582BC;
+    color: #fff;
+    font-size: 5rem;
+}
+
+.grid-container .special6 {
+    background-color: #CCEFEB;
+    color: #fff;
+    font-size: 5rem;
+}
+
+.grid-container .special5 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #ccefeb;
+    color:#fff;
+    font-size: 9rem;
+
+}
+
+.grid-container .special7{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: #EDE5F0;
+    color: #6d8dc8;
+    font-size: 9rem;
+}
+
+.grid-container .special8{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    background-color: #fff;
+    color: #ede5f0;
+    font-size: 9rem;
+
+}
+
+.grid-container .special9{
+    background-color: #A582BC;
+    color: #B3E5E2;
+    font-size: 5rem;
+}
+
+.grid-container .special10{
+    grid-column-start: 3;
+    grid-row-start: 6;
+    grid-row-end:8;
+    /* grid-column-end: ; */
+    background-color: #6d8dc8;
+    color: #B3E5E2;
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+    font-size: 5rem;
+
+}
+
+.page-wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+    /* font-weight: 700; */
+}
+
+.wrapper{
+    /* font-size: 3rem; */
+    font-weight: 1000;
+}
